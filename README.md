@@ -1,6 +1,34 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+# Form Data Generator using AI
+
+The **Form Data Generator using AI** plugin allows users to instantly generate realistic data for any form in a Joget app using OpenAI APIs.
+
+## Supported Form Fields
+
+The plugin supports a wide range of Joget form elements, including:
+
+- **TextField**
+- **TextArea**
+- **RichTextEditorField**
+- **Radio**
+- **CheckBox**
+- **SelectBox**
+- **DatePicker**
+- **FormGrid**
+- **SpreadsheetGrid**
+
+## FormGrid & SpreadsheetGrid Support
+
+- Currently supports only the **Multiple Form Row Binder**.
+- Automatically detects if a parent form contains grids or spreadsheet elements.
+- Generates data for both:
+  - the **main form**, and
+  - all **child elements** inside the grids/spreadsheets.
+
+
+To setup and configure this plugin, please see the 
+
 
 # Getting Help
 
